@@ -1,0 +1,287 @@
+
+
+*
+{
+    font-family:  Helvetica, sans-serif;
+}
+
+body
+{
+    margin: 0;
+}
+
+a
+{
+    text-decoration: inherit;
+    color: inherit;
+}
+
+button
+{
+    font-weight:800;
+    font-size: 12px;
+    border-radius: 50px;
+    border-style: none;
+}
+
+button:hover
+{
+    transform: scale(1.05);
+    filter: brightness(.9);
+}
+
+
+
+#topBanner
+{
+    height: 80px;
+    background-color: black;
+
+    font-weight: bolder;
+    font-size:15px;
+    color: white;
+}
+
+#bannerLogo
+{
+    max-height: 40px;
+    float:left;
+    position:relative;
+    left: 20%;
+    
+    top:20px;
+}
+
+
+.profile
+{
+    float:right;
+    position:absolute;
+
+    top:-3px;
+    right: 370px;
+    
+}
+
+#topBanner a :hover
+{
+    color: #1ed760;
+}
+
+
+.profile img
+{
+    max-height: 50px;
+    top:18px;
+    position: relative;
+    padding-right: 10px;
+}
+
+#pArrow
+{
+    max-height: 10px;
+    position: relative;
+    top: 0px;
+    left:10px;
+}
+
+
+
+.navBar ul
+{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-evenly;
+    list-style: none;
+
+
+    position: absolute;
+    float:right;
+    right:530px;
+    top:16px;
+    width: 350px;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 0px;
+    border-right-width: 1px;
+}
+
+.navBar ul :hover
+{
+    color: #1ed760;
+}
+
+
+
+#premiumBanner
+{
+    height: 740px;
+    background-color: #ffcdd2;
+    color: #d83519;
+    text-align: center;
+    display:flow-root;
+}
+
+#premiumBanner h1
+{
+    font-weight:900;
+    font-size: 68px;
+    position: relative;
+    top:250px;
+}
+
+#premiumBanner button
+{
+    position: relative;
+    top:240px;
+    background-color: #d83519;
+    color: white;
+    height: 48px;
+    width:190px;
+}
+
+#premiumBanner p
+{
+    
+    font-size: 12px;
+    position: relative;
+    top:270px;
+}
+
+
+
+#webPlayer
+{
+    height:600px;
+    background-color: #2941ab;
+    background-image: url('img_bgArt1.png');
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-size: 900px;
+    display:flow-root;
+
+    color: #1ed760;
+    overflow-x: hidden;
+}
+
+#webPlayer h1
+{
+    font-weight:900;
+    font-size: 48px;
+    position: relative;
+    top:85px;
+    left:380px;
+}
+
+#webPlayer p
+{
+    position: relative;
+    top:100px;
+    font-size: 24px;
+    left:380px;
+}
+
+
+#webPlayer button
+{
+    top:130px;
+    background-color: #1ed760;
+    color: #2941ab;
+    height: 48px;
+    width:190px;
+    position: relative;
+    left:380px;
+}
+
+
+
+#bottomBanner
+{
+    padding-top: 60px;
+    height:470px;
+    background-color: black;
+
+    color: gray;
+    font-size: 12px;
+}
+
+#bottomBanner table
+{
+    color: white;
+    position: relative;
+    left:440px;
+    top:20px;
+    text-align: left;
+    line-height: 40px;
+    font-size: 14px;
+    width: 600px;
+}
+
+#bottomBanner th
+{
+    color: grey;
+}
+
+#bottomBanner td:hover
+{
+    color: #1ed760;
+}
+
+#legal
+{
+    display: flex;
+    flex-flow: wrap row;
+    justify-content:space-evenly;
+    list-style: none;
+
+
+    position: relative;
+    float:left;
+    left:310px;
+    top:120px;
+    width: 770px;
+}
+
+#legal :hover
+{
+    color: #1ed760;
+}
+
+
+#bottomBanner p
+{
+    position:relative;
+    float:right;
+    right:380px;
+    bottom:-80px;
+    line-height: 30px;
+}
+
+
+#socials
+{
+    display:flex;
+    position: relative;
+    float: right;
+    right: 260px;
+    top:-220px;
+    justify-content: space-evenly;
+
+    width:230px;
+}
+
+#bottomBanner button
+{
+    background-color: #222326;
+    width: 55px;
+    height:55px;
+}
+
+
+.socialIcon
+{
+    max-height: 26px;
+    position: relative;
+    top:2px;
+}
